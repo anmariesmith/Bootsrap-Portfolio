@@ -8,13 +8,14 @@
     <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body background="assets/tiny-squares.png">
     <!-- Navigation Bar -->
     <nav class="row navbar navbar-expand-lg navbar-light bg-light">
         <div class="col-6 mx-auto">
-            <a class="float-left navbar-brand bg-info text-white" href="#">Anmarie Smith</a>
+                <a class="a-header1 float-left navbar-brand text-white p-3" href="#"><strong>Anmarie Smith</strong></a>
         </div>
         <!-- Navigation Links -->
         <div class="col-sm-4 d-flex">
@@ -31,46 +32,51 @@
             </div>
         </div>
     </nav>
-    <div class="container border" style="margin-top:30px">
-        <div class="col-sx-12">
-            <h2>Portfolio</h2>
-            <hr>
-            <div class="row text-center">
-                <div class="col-sx-12 col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="assets/Pic1.jpg" alt="Paris" width= "100%">
-                        <p><mark>Lorem Ipsum</mark></p>
-                    </div>
-                </div>
-                <div class="col-sx-12 col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="assets/Pic2.jpg" alt="New York" width="100%">
-                        <p><mark>Lorem Ipsum</mark></p>
-                    </div>
-                </div>
+    <!-- Portfolio Section -->
+    <div class="container border bg-light" style="margin-top:30px">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class=" h2-custom pt-3 pl-3"><strong>Portfolio</strong></h2>
+                <hr>
             </div>
-            <div class="row text-center">
-                    <div class="col-sx-12 col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="assets/Pic3.jpg" alt="Paris" width="100%">
-                            <p>Lorem Ipsum</p>
-                        </div>
-                    </div>
-                    <div class="col-sx-12 col-sm-6 col-md-4">
-                            <div class="thumbnail">
-                                <img src="assets/pic4.jpg" alt="New York" width="100%">
-                                <p>Lorem Ipsum</p>
-                            </div>
-                        </div>
-            </div>
-            <div class="row text-center">
-                    <div class="col-sx-12 col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="assets/pic5.jpg" alt="Paris" width="100%">
-                            <p>Lorem Ipsum</p>
-                        </div>
-                    </div>
         </div>
+        <div class="row text-center">
+            <div class="col-sx-12 col-sm-6 col-md-4 mb-3">
+                <div class="pt-custom">
+                    <img class="tnport" src="assets/Pic1.jpg" alt="Paris">
+                    <div class="sp1 text-light">Lorem Ipsum</div>
+                </div>
+            </div>
+            <div class="col-sx-12 col-sm-6 col-md-4 mb-3">
+                <div class="pt-custom">
+                    <img class="tnport" src="assets/Pic2.jpg" alt="New York">
+                    <div class="sp1 text-light">Lorem Ipsum</div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sx-12 col-sm-6 col-md-4 mb-3">
+                <div class="pt-custom">
+                    <img class="tnport" src="assets/Pic3.jpg" alt="Paris">
+                    <div class="sp1 text-light">Lorem Ipsum</div>
+                </div>
+            </div>
+            <div class="col-sx-12 col-sm-6 col-md-4 mb-3">
+                <div class="pt-custom">
+                    <img class="tnport" src="assets/Pic4.jpg" alt="New York">
+                    <div class="sp1 text-light">Lorem Ipsum</div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sx-12 col-sm-6 col-md-4">
+                <div class="pt-custom">
+                    <img src="assets/Pic5.jpg" alt="Paris" width="100%">
+                    <div class="sp1 text-light">Lorem Ipsum</div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 </body>

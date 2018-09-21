@@ -1,0 +1,36 @@
+.a-header1 {
+    background-color: #4aaaa5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;   
+}
+
+.h2-custom {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.img-custom1 {
+    padding: 20px;
+
+}
+
+.tnport {
+    position: relative;
+    width: 100%;
+}
+
+.sp1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 50px;
+    top: 70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pt-custom {
+    width: 100%;
+    position: relative;
+}
