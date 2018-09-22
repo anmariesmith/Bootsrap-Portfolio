@@ -33,3 +33,15 @@
     width: 100%;
     position: relative;
 }
+
+.btn-custom {
+    background-color: #4aaaa5;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #4aaaa5;
+}
+
+.nav-lines {
+    color: lightgrey;
+}
