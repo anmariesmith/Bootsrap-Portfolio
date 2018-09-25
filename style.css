@@ -5,6 +5,10 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.a-custom {
+    font-weight: 100%;
+}
+
 /* Main Section (About me, Contact, and Portfolio */
 .h2-custom {
     font-family: Georgia, 'Times New Roman', Times, serif;
